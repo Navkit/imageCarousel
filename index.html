@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="wallpaper1.jpg" alt="Wallpaper 1" onerror="this.onerror=null;this.src='fallback.jpg';">
+            <img src="wallpaper6.jpg" alt="Wallpaper 2" onerror="this.onerror=null;this.src='fallback.jpg';">
+            <img src="wallpaper3.jpg" alt="Wallpaper 3" onerror="this.onerror=null;this.src='fallback.jpg';">
+            
+        </div>
+        <button class="prev-button">❮</button>
+        <button class="next-button">❯</button>
+        <div class="indicators"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
