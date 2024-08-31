@@ -10,7 +10,7 @@ body {
     max-width: 90%; /* Adjust based on your needs */
     margin: auto;
     overflow: hidden;
-    border: 2px solid #fff; /* Optional: border around the carousel */
+    border: 2px solid #fff; 
     border-radius: 8px;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .carousel-images img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
     display: block;
 }
 

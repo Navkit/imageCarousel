@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.next-button').addEventListener('click', showNextSlide);
     document.querySelector('.prev-button').addEventListener('click', showPrevSlide);
 
-    // Initialize carousel position and indicators
+    
     updateCarousel();
 });
 
